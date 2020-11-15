@@ -1,5 +1,12 @@
 const fetch = require('node-fetch');
 
+
+module.exports = (url, args = {}) => {
+  args.headers = args.headers || {}
+  args.headers['user-agent'] = 'Riverside Rocks Chat API (node, v1.0)'
+  return fetch(url, args)
+}
+
 module.exports = {
     send: function(message, key, channel) {
         return new Promise((resolve, reject) => {
