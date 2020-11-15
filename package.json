@@ -1,0 +1,20 @@
+{
+  "name": "riversiderocks",
+  "version": "1.0.0",
+  "description": "NodeJS wrapper for RiversideRocks Chat API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chat",
+    "nodejs",
+    "RiversideRocks"
+  ],
+  "author": "Khaleel Gibran <khalby786@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
